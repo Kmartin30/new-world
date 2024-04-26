@@ -1,0 +1,23 @@
+/* external style sheet */
+
+body{ 
+    background-color: rgba(169, 35, 35, 0.763);
+}
+
+img{
+    border-width: 10px; border-style: solid; 
+}
+
+p { 
+    color: gold; font-stretch:expanded; font-family: Georgia; font-size: large;
+}
+
+h1{
+    font-stretch: semi-expanded; font-style: oblique; font-family: Verdana, Geneva, Tahoma, sans-serif; color: gold;
+}
+
+ul{
+    color:goldenrod; font-style: oblique; font-family: Georgia; font-size: large;
+}
+
+
