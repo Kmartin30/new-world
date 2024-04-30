@@ -26,8 +26,9 @@ if(userEmail == "@gmail.com") {alert("Hey Google User");
 let person = prompt("Please Enter Your Name", "Code Fellows");
 let knowledge = confirm ("Do you know financial literacy?"); 
 
-function printContact(){
-    alert("Name + Phone Number");
+function gotolink(link){
+    console.log(link)
+    alert("Director K. Middleton + 405-960-9901");
 
 }
 
