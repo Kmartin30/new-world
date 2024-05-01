@@ -1,7 +1,7 @@
 /* external style sheet */
 
 body{ 
-    background-color: rgba(169, 35, 35, 0.763);
+    background-color: rgba(93, 17, 17, 0.804);
 }
 
 img{
@@ -24,3 +24,6 @@ a:hover{
     color: gold; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: oblique;
 }
 
+.loop-img {
+    width: 75px; border-style: dashed; border-color: bisque;
+}
