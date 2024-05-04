@@ -6,7 +6,15 @@ alert ("Welcome to Finances");
 function getEmail() {
     const userEmail = prompt("What is your email"); 
     //declaring a constant variable called userEmail, assigning it the value of what the prompt returns (the user's input)
-return userEmail;
+
+    if(userEmail.endsWith("@gmail.com")){
+        alert("Hi Google User");
+    } 
+    else{
+        alert("Hey email user!")
+    }
+
+    return userEmail;
 } 
 const theirEmail = getEmail(); 
 console.log(theirEmail);  
@@ -20,11 +28,10 @@ greetUser();
 
 
 
-if(userEmail == "@gmail.com") {alert("Hey Google User");
-}
 
-let person = prompt("Please Enter Your Name", "Code Fellows");
-let knowledge = confirm ("Do you know financial literacy?"); 
+
+
+
 
 function gotolink(link){
     console.log(link)
@@ -39,22 +46,34 @@ return gotolink;
 //---pararmeters - placeholders names for inforamation the function will need to do its job---//
 
 function rateMyPage(){
-    let rating = prompt(" Rate My Page 1-10, 10 being the best and 1 being the worst");
+    let rating = prompt(" Rate My Page; MoneyBags 1-10");
 
     for (let i = 0; i < rating; i++){
         document.write('<img class= "loop-img" src="OIP.jpg" alt="cute money bag"/>');
     }
 }
 
-function response(){
-    let response = prompt ('Do you know what a budget is?');
+function financialknowledge(){
+    let person = prompt("Please Enter Your Name", "Code Fellows");
+    let knowledge = prompt("Do you know financial literacy?"); 
     
+    if (knowledge === "no" ){
+         alert ("Its okay most people dont");
+    } else {
+        alert("Budgeting is fun and rewarding!"); 
+    }
 }
-while ('response' < "no" ){
-    response = prompt ('Its okay most people dont');
+
+financialknowledge();
+
+function Moneyloop(){
+    let exitword = "money";
+    let userinput = prompt ("Type the word money")
+    while (userinput != exitword){
+         userinput = prompt ("Type the word money")
+    }
+    alert("FINALLY")
 }
-console.log(response)
 
- alert("Budgeting is fun and rewarding!"); 
+Moneyloop();
 
-console.log(response)
